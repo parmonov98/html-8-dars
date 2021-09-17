@@ -1,0 +1,15 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+	<title>Day 1122 Articles Page UI Design</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #10182f;stroke-linecap:round;stroke-linejoin:round;stroke-width: 2 } 
+	</style>
+	<g id="Day 1122 Articles Page UI Design">
+		<g id="icons/border/dark/search">
+			<g id="search">
+				<path id="Oval" class="shp0" d="M9 17C4.58 17 1 13.42 1 9C1 4.58 4.58 1 9 1C13.42 1 17 4.58 17 9C17 13.42 13.42 17 9 17Z" />
+				<path id="Path" class="shp0" d="M19 19L14.65 14.65" />
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,217 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulishsh:wght@400;700&display=swap'); */
+
+body{
+  margin: 0;
+}
+.container{
+  width: 1294px;
+  margin: 0 auto;
+}
+.header{
+  margin-bottom: 30px;
+}
+.navigation{
+  margin-top: 46px;
+}
+.navigation .menu
+{
+  float: left;
+}
+.navigation .authentication{
+  float: right;
+}
+
+.navigation .authentication .login-button,
+.navigation .authentication .register-button{
+  font-size: 16px;
+  color: #0e1731;
+  font-weight: 700;
+  font-family: "Mulish";
+  text-align: right;
+  border-radius: 22px;
+  background-color: #ffffff;
+  border: 1px solid #0e1731;
+  padding: 10px 25px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.navigation .authentication .login-button{
+  margin-right: 20px;
+}
+.navigation .authentication .register-button{
+  background-color: #0e1731;
+  color: #fff;
+}
+
+.clearfix{
+  clear:both;
+}
+
+.navigation .menu{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navigation .menu .menu-item{
+  float: left;
+  margin-right: 30px;
+}
+.navigation .menu .menu-item > a{
+  font-size: 16px;
+  color: #0e1731;
+  font-weight: 700;
+  font-family: "Mulish";
+  text-align: right;
+  text-decoration: none;
+  text-transform: capitalize;   
+}
+
+.subnavigation{
+  margin-top: 33px;
+}
+.subnavigation .menu{
+  float: left;
+}
+
+.subnavigation .menu{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.subnavigation .menu .menu-item{
+  float: left;
+  margin-right: 30px;
+}
+.subnavigation .menu .menu-item > a{
+  font-size: 16px;
+  color: #0e1731;
+  font-weight: 700;
+  font-family: "Mulish";
+  text-align: right;
+  text-decoration: none;
+  text-transform: capitalize;   
+}
+
+.subnavigation .search{
+  float: right;
+}
+
+.main{
+  
+}
+
+.main .content{
+  float: left;
+  margin-top: 70px;
+  width: 50%;
+  margin-right: 60px;
+}
+
+.main .content .content-title{
+  font-size: 52px;
+  color: #0e1731;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+.main .content .articles{}
+.main .content .articles article{
+  margin-bottom: 35px;
+}
+
+.main .content .articles article img{
+  width: 100%;
+  border-radius: 10px;
+}
+.main .content .articles article .article-title{
+  margin: 0;
+  font-size: 36px;
+  color: #0e1731;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+.main .content .articles article .article-description{
+  margin: 0;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0e1731;
+  font-weight: 400;
+  font-family: "Lato";
+  margin-top: 25px;
+}
+.main .content .articles article .article-footer{
+  margin-top: 16px;
+}
+.main .content .articles article .article-footer .author-link{
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+.main .content .articles article .article-footer .author-link img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.main .content .articles article .article-footer .author-link author {
+  font-size: 18px;
+  color: #0e1731;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+.main .sidebar{
+  float: right;
+  width: calc(50% - 60px);
+  margin-top: 160px;
+}
+.main .sidebar h4{
+  font-size: 28px;
+  color: #0e1731;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+
+.recent-articles{
+  margin-top: 30px;
+}
+.recent-articles .item{
+  display: flex;
+  margin-bottom: 20px;
+}
+.recent-articles .img-wrapper{
+  width: 35%;
+}
+.recent-articles .img-wrapper img{
+  width: 100%;
+}
+
+.recent-articles .item-content{
+  padding-left: 24px;
+}
+.recent-articles .item-content .item-title{
+  font-size: 28px;
+  color: #0e1731;
+  font-weight: 700;
+  font-family: "Montserrat";
+  margin: 0;
+  padding-top: 10px;
+}
+.recent-articles .item-content .author-link{
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 24px;
+}
+.recent-articles .item-content .author-link img{
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.recent-articles .item-content .author-link author{
+  font-size: 18px;
+  color: #0e1731;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-decoration: none;
+}
